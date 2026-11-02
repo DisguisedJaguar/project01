@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ExploreWorld</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <h1>Contact Us</h1>
+        <p>Let's start planning your next adventure.</p>
+    </section>
+
+    <section class="section">
+        <h2>Get in Touch</h2>
+        <p>Have a question or travel idea? Send us a message.</p>
+
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="destination">Preferred Destination</label>
+            <select id="destination" name="destination">
+                <option value="">Choose a destination</option>
+                <option value="italy">Italy</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="bali">Bali</option>
+                <option value="japan">Japan</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message"
+                      placeholder="Tell us about your travel plans..."
+                      required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div style="margin-top: 35px;">
+            <p><strong>Email:</strong> hello@example.com</p>
+            <p><strong>Location:</strong> New Delhi, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ExploreWorld. All rights reserved.</p>
+    </footer>
+</body>
+</html>
